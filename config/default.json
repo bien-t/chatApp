@@ -1,0 +1,31 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "public": "./public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mongodb": "mongodb://127.0.0.1:27017/chat",
+  "authentication": {
+    "entity": "user",
+    "service": "usersService",
+    "secret": "F/Ll5BS0cZrJJBYQymNk0x1DiQM7GZcj",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://localhost:3000",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
+}

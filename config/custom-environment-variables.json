@@ -1,0 +1,14 @@
+{
+  "port": {
+    "__name": "PORT",
+    "__format": "number"
+  },
+  "host": "HOSTNAME",
+  "authentication": {
+    "secret": "FEATHERS_SECRET",
+    "jwtOptions": {
+      "audience": "NEXT_PUBLIC_HOST"
+    }
+  },
+  "mongodb": "MONGOURL"
+}

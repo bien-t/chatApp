@@ -1,0 +1,76 @@
+{
+  "userData": {
+    "email": "example@example.com",
+    "role": "user",
+    "_id": "1",
+    "avatarUrl": "https://www.pngarts.com/files/6/User-Avatar-in-Suit-PNG.png",
+    "authorizedChannels": []
+  },
+  "adminData": {
+    "email": "example@example.com",
+    "role": "admin",
+    "_id": "1",
+    "avatarUrl": "",
+    "authorizedChannels": []
+  },
+  "channelList": [
+    {
+      "_id": "1",
+      "name": "Channel 1",
+      "protected": false,
+      "password": ""
+    },
+    {
+      "_id": "2",
+      "name": "Channel 2",
+      "protected": true,
+      "password": ""
+    },
+    {
+      "_id": "3",
+      "name": "Another channel",
+      "protected": false,
+      "password": ""
+    },
+    {
+      "_id": "4",
+      "name": "One more",
+      "protected": true,
+      "password": ""
+    }
+  ],
+  "userList": [
+    {
+      "_id": "1",
+      "username": "User 1",
+      "imageUrl": "",
+      "email": "",
+      "avatarUrl": "",
+      "authorizedChannels": []
+    },
+    {
+      "_id": "2",
+      "username": "User 2",
+      "imageUrl": "",
+      "email": "",
+      "avatarUrl": "",
+      "authorizedChannels": []
+    },
+    {
+      "_id": "3",
+      "username": "Another user",
+      "imageUrl": "",
+      "email": "",
+      "avatarUrl": "",
+      "authorizedChannels": []
+    },
+    {
+      "_id": "4",
+      "username": "One more",
+      "imageUrl": "",
+      "email": "",
+      "avatarUrl": "",
+      "authorizedChannels": []
+    }
+  ]
+}

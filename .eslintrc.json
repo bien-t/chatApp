@@ -1,0 +1,21 @@
+{
+  "plugins": ["styled-components-a11y"],
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb-base/legacy",
+    "plugin:storybook/recommended",
+    "plugin:cypress/recommended",
+    "plugin:styled-components-a11y/recommended"
+  ],
+  "rules": {
+    "max-len": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error"
+  }
+}
